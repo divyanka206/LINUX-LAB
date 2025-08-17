@@ -51,8 +51,7 @@ drwxr-xr-x@  3 divyankakanyal  staff       96 Aug 12 13:14 projects
 
 ```
 
-## Image Screenshot
-![alt text](image.png)
+
 
 
 
