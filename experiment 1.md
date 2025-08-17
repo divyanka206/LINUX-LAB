@@ -66,4 +66,6 @@ Once all three are installed:
 
 If you want, I can also give you a **full guide with screenshots** showing how to create an Ubuntu virtual machine in VirtualBox after downloading. Would you like me to prepare that?
 
-
+![alt text](images/image-1.png)
+![alt text](images/image-2.png)
+![alt text](images/image-3.png)
