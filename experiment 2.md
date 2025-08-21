@@ -17,7 +17,8 @@ pwd
 **Example Output:**
 
 ```
-/Users/divyankakanyal/LINUX LAB/LINUX-LAB
+/home/divyanka2006/Documents
+
 ```
 
 ---
@@ -33,8 +34,7 @@ ls
 **Example Output:**
 
 ```
-experiment 1    image-1.png     image-3.png     projects
-experiment 2    image-2.png     Lab3-Exp1.md    README.md
+ projects
 ```
 
 ---
@@ -58,7 +58,7 @@ pwd
 Output:
 
 ```
-divyankas-MacBook-Air:projects divyankakanyal$ touch text_file1.txt
+divyanka2006@divyanka2006-QEMU-Virtual-Machine:~/Documents
 ```
 
 ---
@@ -74,8 +74,8 @@ mkdir new_folder
 **Example Output:**
 
 ```
-ls
-divyankas-MacBook-Air:LINUX-LAB divyankakanyal$ mkdir projects
+divyanka2006@divyanka2006-QEMU-Virtual-Machine:~/Documents$ ls
+projects
 ```
 
 ---
@@ -91,9 +91,8 @@ touch file1.txt
 **Example Output:**
 
 ```
-ls
-divyankas-MacBook-Air:projects divyankakanyal$ ls
-text_file1.txt
+divyanka2006@divyanka2006-QEMU-Virtual-Machine:~/Documents/projects$ ls
+file1.txt
 ```
 
 ---
@@ -117,7 +116,8 @@ ls new_folder
 Output:
 
 ```
-divyankas-MacBook-Air:LINUX-LAB divyankakanyal$ cp data/data.txt projects
+divyanka2006@divyanka2006-QEMU-Virtual-Machine:~/Documents/project1$ ls
+file1.txt
 ```
 
 ---
