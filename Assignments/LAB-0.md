@@ -10,10 +10,10 @@
 *(Add your screenshots in the placeholders below.)*
 
 ### Step 1: Download and Install VirtualBox
-![alt text](../../images/image-2.png)
+![alt text](/images/image-2.png)
 
 ### Step 2: Download Ubuntu LTS ISO
-![alt text](../../images/image-1.png)
+![alt text](/images/image-1.png)
 
 ### Step 3: Create a New Virtual Machine
 ![alt text](/images/image-24.png)

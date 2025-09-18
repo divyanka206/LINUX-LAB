@@ -168,3 +168,16 @@ chown root:admin project.sh # Change owner to root and group to admin
 ✅ **Key Tip**: Use **numeric for quick settings** (e.g., 755, 644) and **symbolic for fine adjustments** (`u+x`, `g-w`).
 
 ---
+
+![alt text](<divyanka2006@divyanka2006-QEMU-Virtual-Machine~Desktop$ pwd.png>)
+![alt text](code4.c.png)
+![alt text](<divyanka2006@divyanka2006-QEMU-Virtual-Machine-Desktop$ ls - la.png>)
+![alt text](<drwxrwxr-x 2 divyanka2006 divyanka2006 4096 Sep 10 2315 algorithn.png>)
+![alt text](<divyanka2006@divyanka2006-QEHU-Virtual-Machine-Desktopscripts$ chmod.png>)
+![alt text](<Pasted Graphic 20.png>)
+![alt text](<Pasted Graphic 21.png>)
+![alt text](<133 Sep 11 0032 ftlel.sh.png>)
+![alt text](<divyanka2006@divyanka2006-QEHU-Virtual-Machine-Desktopscripts$ chnod.png>)
+![alt text](<Pasted Graphic 24.png>)
+![alt text](<divyanka2006@divyanka2006-QEMU-Virtual-Machine-Desktopscripts$ chnoc.png>)
+![alt text](<Pasted Graphic 26.png>)
