@@ -1,17 +1,17 @@
-# LAB2 – Script Execution & Explanation
+# 🔸LAB2 – Script Execution & Explanation🔸
 
-## **1. Objective**
+## ✅**1. Objective**
 Understand how existing shell scripts work by executing them, observing outputs, and explaining their functionality.
 
 ---
 
-## **2. Selected Scripts**
+## ✅**2. Selected Scripts**
 - **Script 1:** `array4.sh`
 - **Script 2:** `fourth_script.sh`
 
 ---
 
-## **3. Script 1: print_numbers.sh**
+## ✅**3. Script 1: print_numbers.sh**
 
 ### **Purpose**
 This script demonstrates:
@@ -22,7 +22,7 @@ How to iterate through all elements in an array using a for loop.
 How to print the values stored in the array.
 ``` 
 
-### **Script Code**
+### ✨**Script Code**✨
 ```bash
 #!/bin/bash
  
@@ -54,24 +54,28 @@ else
     echo "Number is less than or equal to 5"
 fi
 ```
-## Screenshots:
-![alt text](/images/image-27.png)
+## 📌Screenshots:
+![alt text](../images/image-27.png)
 
-![alt text](/images/image-28.png)
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
 
-## Extra Questions:
+![alt text](../images/image-28.png)
+
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+
+## ❓Extra Questions:
 
 Q1. What is the purpose of #!/bin/bash at the top of a script?
 ```
-It specifies the interpreter used to run the script.
-#!/bin/bash tells the system to use the Bash shell to execute the script.
+- It specifies the interpreter used to run the script.
+- #!/bin/bash tells the system to use the Bash shell to execute the script.
 ```
 
 Q2. How do you make a script executable?
 
 To make a script executable, run:
 ```
-chmod +x array4.sh
-chmod +x fourth_script.sh
+- chmod +x array4.sh
+- chmod +x fourth_script.sh
 ```
 

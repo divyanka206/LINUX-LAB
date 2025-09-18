@@ -5,7 +5,7 @@ The purpose of `starter_kit.sh` is to automatically set up a starter project env
 It creates a `project/` directory with subfolders `scripts/`, `docs/`, and `data/`, and adds placeholder `README.md` files in each.  
 This ensures a consistent structure for new projects and saves time by automating setup.
 
-## 🔹Example Run
+## ✨Example Run✨
 
 ```bash
 $ bash starter_kit.sh
@@ -23,7 +23,7 @@ project/
 
 ---
 
-## ✅ Extra Questions
+## ❓ Extra Questions
 
 **1. What does `mkdir -p` do?**  
 - `mkdir -p` creates parent directories as needed.  
@@ -43,6 +43,12 @@ project/
 
 ![alt text](../images/image-45.png)
 
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+
 ![alt text](../images/image-46.png)
 
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+
 ![alt text](../images/image-47.png)
+
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸

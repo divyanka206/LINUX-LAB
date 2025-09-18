@@ -53,7 +53,7 @@ done
 - Start ≤ End
 - Prints numbers accordingly.
 
-## ✅Extra Questions
+## ❓Extra Questions
 1. **Difference between $1, $@, and $# in bash?**
 -   $1 → The first argument passed to the script.
 -   $@ → All arguments as a list ("$@" preserves each argument).
