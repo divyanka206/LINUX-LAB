@@ -84,9 +84,8 @@ root           3  0.0  0.0      0     0 ?        S    09:46   0:00 [pool
 root           4  0.0  0.0      0     0 ?        I<   09:46   0:00 [kwor
 root           5  0.0  0.0      0     0 ?        I<   09:46   0:00 [kwor
 
-
-
 ```
+![alt text](image.png)
 
 ---
 
@@ -101,7 +100,7 @@ pstree -p
 Example snippet:
 
 
-![alt text](../images/image-52.png)
+![alt text](image-1.png)
 
 
 
@@ -121,14 +120,14 @@ top
 
 Example snippet:
 
-![alt text](../images/image-53.png)
+top
 
 🧪 Try customizing refresh interval with:
 
 ```bash
 top -d 1
 ```
-
+![alt text](image-2.png)
 ---
 
 # ⚡ 4️⃣ CPU Scheduling Priority (nice / renice)
@@ -145,6 +144,8 @@ Example snippet:
 ```
 ✅ 900 = 15 minutes
 
+![alt text](image-3.png)
+
 #### Change priority while running:
 
 ```bash
@@ -155,6 +156,7 @@ Example snippet:
 ```
 3476 (process ID) old priority 10, new priority -5
 ```
+![alt text](image-4.png)
 
 🛑 Lower `nice` value = **higher** priority
 
@@ -179,7 +181,7 @@ pid 3476's current affinity list: 0-3
 pid 3476's new affinity list: 1
 
 ```
-
+![alt text](image-5.png)
 ---
 
 # 📂 6️⃣ I/O Scheduling Priority
@@ -203,6 +205,7 @@ Example snippet:
 ```
 The command successfully set the I/O scheduling class for process 3476 to idle.
 
+![alt text](image-6.png)
 ---
 
 # 🔍 7️⃣ Open Files by a Process
@@ -223,7 +226,7 @@ sleep   3476 divyanka2006 txt    REG  253,2    68104  787576 /usr/bin/sleep
 sleep   3476 divyanka2006 mem    REG  253,2  5726160  787401 /usr/lib/locale/locale-archive
 
 ```
-
+![alt text](image-7.png)
 ---
 
 # 🐛 8️⃣ Debug System Calls of Process
@@ -241,6 +244,7 @@ Example snippet:
 strace: Process 3476 attached
 restart_syscall(<... resuming interrupted clock_nanosleep ...>^Cstrace: 
 ```
+![alt text](image-8.png)
 ---
 
 # 📡9️⃣Which Process Uses a Port?
@@ -257,7 +261,7 @@ Example snippet:
 (No Output)
 ```
 The command ran successfully and found no process using TCP port 8080.
-
+![alt text](image-9.png)
 ---
 
 # 📊 🔟 Per-Process CPU Statistics
@@ -285,7 +289,7 @@ Average:     1000      3476    0.00    0.00    0.00    0.00    0.00     -  sleep
 ```bash
 sudo apt install sysstat
 ```
-
+![alt text](image-10.png)
 ---
 
 # 🔐 1️⃣1️⃣ Resource Management using cgroups
@@ -302,7 +306,7 @@ sudo cgcreate -g cpu,memory:/testgroup
 ```bash
 sudo apt install cgroup-tools
 ```
-
+![alt text](image-11.png)
 ### ✅ Limit CPU and Memory:
 
 ```bash
@@ -313,6 +317,7 @@ Example snippet:
 ```
 50000 100000
 ```
+![alt text](image-12.png)
 ---
 
 ```bash
@@ -323,7 +328,7 @@ Example snippet:
 ```
 100M
 ```
-
+![alt text](image-13.png)
 ### ✅ Add Process (PID 3050) to cgroup:
 
 ```bash
@@ -334,6 +339,7 @@ Example snippet:
 ```
 3476
 ```
+![alt text](image-14.png)
 
 ✅ Production servers LOVE cgroups
 
@@ -370,7 +376,8 @@ Example snippet:
 pid 4095's current scheduling policy: SCHED_FIFO
 pid 4095's current scheduling priority: 50
 ```
-
+![alt text](image-15.png)
+![alt text](image-16.png)
 ## 2️⃣ ionice (I/O Priority Control)
 
 ```bash
@@ -384,7 +391,7 @@ tar: /home/divyanka2006/Desktop/lab5/abc.txt: Cannot open: Permission denied
 tar: /home/newuser: Cannot open: Permission denied
 tar: /home/datasci: Cannot open: Permission denied
 ``` 
-![alt text](../images/image-54.png)
+![alt text](image-18.png)
 
 ✅ tar: it is used to bundle many files into one single file 
 ✅ .gz: this part means that the file was compressed using gzip
@@ -417,6 +424,7 @@ Example snippet:
 200M
 4095
 ```
+![alt text](image-17.png)
 
 ## 5️⃣ systemd-run
 
